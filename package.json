@@ -1,0 +1,29 @@
+{
+  "name": "createlyricmarker",
+  "version": "1.0.0",
+  "description": "Create text layer with lyric marker",
+  "main": "CreateLyricMarker.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack -w"
+  },
+  "author": "mes",
+  "license": "MIT",
+  "dependencies": {
+    "types-for-adobe": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-member-expression-literals": "^7.2.0",
+    "@babel/plugin-transform-property-literals": "^7.2.0",
+    "@babel/plugin-transform-property-mutators": "^7.2.0",
+    "@babel/plugin-transform-reserved-words": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-extendscript": "^1.0.2",
+    "fast-sax": "^1.0.2",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
